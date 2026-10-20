@@ -1,0 +1,13 @@
+,MAE,MSE,RMSE,MAPE,R2
+Linear Regression,123.31,30848.86,175.64,7.62,0.04
+Decision Tree,138.55,37189.91,192.85,8.44,-0.16
+Random Forest,124.77,34286.65,185.17,7.7,-0.07
+Gradient Boosting,122.17,29898.14,172.91,7.51,0.07
+XGBoost,120.06,28654.7,169.28,7.33,0.11
+FFNN,122.48,30925.5,175.86,7.57,0.04
+CNN,122.13,30787.6,175.46,7.58,0.04
+LSTM,123.86,31484.17,177.44,7.67,0.02
+Homogeneous Stacking,141.39,39908.18,199.77,8.71,-0.24
+AG-StackNet,119.58,29943.58,173.04,7.34,0.07
+Homogeneous Stacking (published protocol: meta-learner fitted on test set),55.47,6564.07,81.02,3.34,0.8
+AG-StackNet (published protocol: meta-learner fitted on test set),45.03,4290.95,65.51,2.72,0.87
